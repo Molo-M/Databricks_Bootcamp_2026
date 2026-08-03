@@ -1,7 +1,7 @@
 # Databricks Bootcamp (Medallion Architecture)
 
 ## Overview
-This project implements my previous [Data Lakehouse architecture](https://github.com/Molo-M/sql-data-warehouse-project) on Databricks, migrating a traditional SQL Server relational warehouse into a scalable, cloud-native Delta Lake pipeline. Using a three-tier **Medallion Architecture** (Bronze, Silver, Gold), raw enterprise CRM and ERP data is ingested, cleansed, and transformed into a production-ready Star Schema for downstream analytics.
+This project migrates my previous [Data Warehouse](https://github.com/Molo-M/sql-data-warehouse-project) onto a **Data Lakehouse on Databricks**, migrating a traditional SQL Server relational warehouse into a scalable, cloud-native Delta Lake pipeline. Using a three-tier **Medallion Architecture** (Bronze, Silver, Gold), raw enterprise CRM and ERP data is ingested, cleansed, and transformed into a production-ready Star Schema for downstream analytics.
 
 ---
 
